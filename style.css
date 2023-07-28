@@ -1,0 +1,47 @@
+*{
+  transition: .5s all ease-in-out;
+}
+
+a{
+  cursor: pointer;
+}
+
+.scaled-sm{
+  transform: scale(0.5);
+}
+
+.scaled-md{
+  transform: scale(1.5);
+}
+
+.scaled-lg{
+  transform: scale(2);
+}
+
+.scaled-xl{
+  transform: scale(3)
+}
+
+input[type=checkbox]{
+  cursor: pointer;
+}
+
+.pos-fix{
+  position: fixed;
+}
+
+.pos-rel{
+  position: relative;
+}
+
+.pos-abs{
+  position: absolute;
+}
+
+.login-cont{
+  transform: translateX(0);
+}
+
+.register-cont{
+  transform: translateX(-200%);
+}
